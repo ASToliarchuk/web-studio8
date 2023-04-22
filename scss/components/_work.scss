@@ -1,0 +1,25 @@
+.work {
+    padding-bottom: 94px;
+  }
+  
+  .work .work-title {
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+  
+  .work-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .work-img + .work-img {
+    margin-left: 30px;
+  }
