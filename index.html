@@ -19,7 +19,7 @@
 <body>
    <!--  Шапка-->
     <header class="header">
-        <div class="container header-nav">
+        <div class="container header__nav">
             <nav class="navigation">
                 <a href="./index.html" class="logo">Web<span>Studio</span>
                 </a>
@@ -55,7 +55,7 @@
     <!-- Герой -->
     <section class="hero">
         <div class="container">
-            <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br> ВАШОГО БІЗНЕСУ</h1>
+            <h1 class="hero__title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br> ВАШОГО БІЗНЕСУ</h1>
             <button data-modal-open type="button" class="btn-hero">Замовити послугу</button>
         </div>
     </section>
@@ -64,45 +64,45 @@
     <section class="feature">
         <div class="container">
             <h2 class="visually-hidden">Наші особливості</h2>
-            <ul class="feature-list">
-                <li>
-                    <div class="feature-box">
+            <ul class="feature__list">
+                <li class="feature__item">
+                    <div class="feature__box">
                         <svg width="70" height="70">
                             <use href="./images/symbol-defs.svg#icon-antenna"></use>
                         </svg>
                     </div>
-                    <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="feature-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="feature__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="feature__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
             
-                <li>
-                    <div class="feature-box">
+                <li class="feature__item">
+                    <div class="feature__box">
                         <svg width="70" height="70">
                             <use href="./images/symbol-defs.svg#icon-clock"></use>
                         </svg>
                     </div>
-                    <h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="feature-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h3 class="feature__title">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="feature__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
             
-                <li>
-                    <div class="feature-box">
+                <li class="feature__item">
+                    <div class="feature__box">
                         <svg width="70" height="70">
                             <use href="./images/symbol-defs.svg#icon-diagram"></use>
                         </svg>
                     </div>
-                    <h3 class="feature-title">ПЛАНУВАННЯ</h3>
-                    <p class="feature-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="feature__title">ПЛАНУВАННЯ</h3>
+                    <p class="feature__text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
             
-                <li>
-                    <div class="feature-box">
+                <li class="feature__item">
+                    <div class="feature__box">
                         <svg width="70" height="70">
                             <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                         </svg>
                     </div>
-                    <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="feature-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h3 class="feature__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="feature__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </div>
@@ -124,10 +124,10 @@
     <!-- Наша команда -->
     <section class="team">
         <div class="container">
-            <h2 class="team-title">Наша команда</h2>
-            <ul class="team-list">
+            <h2 class="team__title">Наша команда</h2>
+            <ul class="team__list">
 
-                <li class="team-card">
+                <li class="team__card">
                     <img src="./images/igor.jpg" alt="член команди" width="270" height="260">
                     <div class="team-box">
                         <h3 class="team-name">Ігор Дем'яненко</h3>
@@ -157,7 +157,7 @@
                     </div>
                 </li>
                 
-                <li class="team-card">
+                <li class="team__card">
                     <img src="./images/olga.jpg" alt="член команди" width="270" height="260">
                     <div class="team-box">
                         <h3 class="team-name">Ольга Рєпіна</h3>
@@ -187,7 +187,7 @@
                     </div>
                 </li>
                 
-                <li class="team-card">
+                <li class="team__card">
                     <img src="./images/mykola.jpg" alt="член команди" width="270" height="260">
                     <div class="team-box">
                         <h3 class="team-name">Микола Тарасов</h3>
@@ -217,7 +217,7 @@
                     </div>
                 </li>
                 
-                <li class="team-card">
+                <li class="team__card">
                     <img src="./images/mihaylo.jpg" alt="член команди " width="270" height="260">
                     <div class="team-box">
                         <h3 class="team-name">Михайло Єрмаков</h3>
@@ -252,9 +252,9 @@
     </section>
 
     <!-- Наші клієнти -->
-    <section class="section-client">
+    <section class="client">
         <div class="container">
-            <h2 class="team-title">Постійні клієнти</h2>
+            <h2 class="client-title">Постійні клієнти</h2>
 
             <ul class="company">
                 <li class="card"><a class="client-icons" href="/">
