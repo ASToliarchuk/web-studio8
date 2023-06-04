@@ -193,21 +193,12 @@
     cursor: pointer;
   }
   
-  .footer-right-block {
-    margin-left: auto;
-    color: rgb(255, 255, 255);
-  }
   
-  .footer-cta {
-    display: block;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
   
   .subscription {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    // display: flex;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;

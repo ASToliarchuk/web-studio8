@@ -1,5 +1,5 @@
 .team {
-    text-align: center;
+    // text-align: center;
     background-color: var(--background-secondary-section);
     padding-top: 60px;
     padding-bottom: 60px;
@@ -37,7 +37,6 @@
   }
   
 
-  
   .team__card {
     margin-bottom: 30px;
 
@@ -106,8 +105,8 @@
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
-    width: 270px;
-    height: 168px;
+    // width: 270px;
+    // height: 168px;
   }
   
   .team .team-name {
@@ -137,7 +136,7 @@
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+        justify-content: center;
     padding-right: 32px;
     padding-left: 32px;
     margin-top: 16px;
