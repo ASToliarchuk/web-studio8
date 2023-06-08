@@ -1,24 +1,31 @@
+
+.footer {
+  background-color: var(--background-hero);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .address {
+    margin-bottom: 60px;
     font-style: normal;
-    text-align: center;
     // width: 231px;
     // height: 81px;
     // margin-right: 70px;
   }
   
-  .footer {
-    background-color: var(--background-hero);
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
   .footer-block {
+    align-items: baseline;
+    text-align: center;
+
     display: -webkit-box;
     display: -ms-flexbox;
-    // display: flex;
     -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -ms-flex-align: baseline;        
+  }
+
+  .footer-right-block {
+    margin-left: auto;
+    color: rgb(255, 255, 255);
   }
   
   .footer-address {
@@ -28,7 +35,11 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+  }
+
+  .footer-mail {
+    margin-bottom: 8px;
   }
   
   .footer-mail,
@@ -42,17 +53,8 @@
     letter-spacing: 0.03em;
   }
   
-  .footer-mail {
-    margin-bottom: 12px;
-  }
 
-  .footer-tel{
-    margin-bottom: 60px;
-    
-  }
-  
   .title-icon {
-    text-align: center;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -67,10 +69,11 @@
   .socials {
     display: -webkit-box;
     display: -ms-flexbox;
+   
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
     list-style: none;
+    margin-bottom: 60px;
   }
   
   .items-icon {
@@ -103,42 +106,3 @@
   .footer-icon {
     fill: #F5F4FA;
   }
-
-  .logo-footer {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 28px;
-  }
-  
-  .img-logo-footer {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    text-decoration: none;
-  }
-  
-  .footer span {
-    color: var(--white-color);
-  }
-
-  .footer-right-block {
-    text-align: center;
-    margin-left: auto;
-    color: rgb(255, 255, 255);
-  }
-  
-  .footer-cta {
-    display: block;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
-  

@@ -1,57 +1,37 @@
 .team {
-    // text-align: center;
     background-color: var(--background-secondary-section);
     padding-top: 60px;
     padding-bottom: 60px;
 
-    @media screen and (min-width: 1200px) {
-      padding-top: 94px;
-      padding-bottom: 94px;
   }
+  
+  .team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    // display: flex;
   }
-
-  .team .team__title {
+  
+  .team .team-title {
     color: var(--primary-text-color);
     font-family: Roboto;
+    font-style: 400;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 30px;
-
-    @media screen and (min-width: 1200px) {
-      margin-bottom: 50px;
-      font-size: 33px;
-  }
   }
   
-  .team__list {
-    margin-bottom: -30px;
-    
-    @media screen and (min-width: 768px) {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: -30px;
-    }
-  }
-  
-
-  .team__card {
+  .team-card {
     margin-bottom: 30px;
-
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-
-    @include tab {
-      margin-left: 30px;
-      width: calc(100% / 2 - 30px);
   }
 
-  @include desk {
-      width: calc(100% / 4 - 30px);
-  }
+  .team-card:last-child {
+    margin-bottom: 0px;
   }
   
   .social-link {
@@ -106,7 +86,7 @@
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
     // width: 270px;
-    // height: 168px;
+    height: 168px;
   }
   
   .team .team-name {
@@ -131,13 +111,15 @@
   }
   
   .social-list {
+    display: flex;
+    justify-content: center;
+
+    -webkit-box-pack: justify;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: center;
-    padding-right: 32px;
-    padding-left: 32px;
-    margin-top: 16px;
+    -ms-flex-pack: justify;
+            
+    // padding-right: 32px;
+    // padding-left: 32px;
+    // margin-top: 16px;
   }

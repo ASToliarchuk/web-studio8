@@ -1,9 +1,6 @@
 .work {
+  display: none;
     padding-bottom: 94px;
-
-    @media screen and (max-width: 1199px) {
-      display: none;
-  }
   }
   
   .work .work-title {
