@@ -5,25 +5,26 @@
 
   }
   
-  .team-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    // display: flex;
-  }
+  // .team-list {
+  //   // display: flex;
+  //   // flex-wrap: wrap;
+  //   // gap: 30px;
+  // }
   
   .team .team-title {
     color: var(--primary-text-color);
-    font-family: Roboto;
-    font-style: 400;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.84px;
     margin-bottom: 30px;
   }
   
   .team-card {
+    // width: calc((100% - 90px) / 4);
     margin-bottom: 30px;
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -81,7 +82,7 @@
   
   .team-box {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
@@ -91,28 +92,32 @@
   
   .team .team-name {
     color: var(--primary-text-color);
+    text-align: center;
     font-family: Roboto;
-    font-style: 400;
-    font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
     margin-bottom: 10px;
   }
   
   .team .team-text {
     color: var(--secondary-text-color);
+    text-align: center;
     font-family: Roboto;
-    font-style: 400;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 16px;
   }
   
   .social-list {
     display: flex;
     justify-content: center;
+    gap: 10px;
 
     -webkit-box-pack: justify;
     display: -webkit-box;

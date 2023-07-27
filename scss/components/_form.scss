@@ -28,20 +28,16 @@
   }
 
   .subscription-input {
-    display: -webkit-box;
-    display: -ms-flexbox;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-
     display: flex; 
     align-items: center;       
     width: 100%;
     min-width: 358px;
     height: 50px;
-    margin-bottom: 20px;
     padding: 0;
-    padding-left: 16px;
-    margin-right: 12px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 16px;
     line-height: 1.25;
     color: rgba(255, 255, 255, 0.6);
@@ -68,7 +64,7 @@
     border-radius: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: auto;
+    padding-left: 31px;
     padding-right: auto;
     justify-content: center;
     text-align: center;
@@ -112,6 +108,9 @@
   .form-icon-footer {
     width: 24px;
     height: 24px;
+    margin-right: auto;
     margin-left: 10px;
+    margin-top: 13px;
+    margin-bottom: 13px;
     fill: #FFFFFF;
   }
