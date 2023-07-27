@@ -36,15 +36,27 @@
 //     text-align: center;
 // }
 
-
+@media screen and (min-width: 768px) {
+  .feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+}
 
   .feature-list li {
     // gap: 30px;
     // width: 270px;
     height: auto;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 768px){
+    margin-left: 30px;
+    width: calc(50% - 30px);
+  }
   }
 
+  
   .feature-list li:last-child {
     margin-bottom: 0;
   }
