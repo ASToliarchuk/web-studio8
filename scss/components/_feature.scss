@@ -15,12 +15,7 @@
     margin-bottom: 10px;
     text-align: center;
   }
-  
-  .feature-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    // display: flex;
-  }
+
   
   .feature-box {
     // display: -webkit-box;
@@ -41,7 +36,10 @@
 //     text-align: center;
 // }
 
+
+
   .feature-list li {
+    // gap: 30px;
     // width: 270px;
     height: auto;
     margin-bottom: 30px;
