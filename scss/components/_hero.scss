@@ -75,8 +75,16 @@
     font-weight: 900;
     line-height: 1.62;
     letter-spacing: .06em;
-
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+      
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: .06em;
+    max-width: 696px;
+}
   }
   
   .btn-hero {

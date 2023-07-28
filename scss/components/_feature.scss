@@ -1,6 +1,11 @@
 .feature {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
   }
   
   .feature-title {
@@ -14,8 +19,11 @@
     text-transform: uppercase;
     margin-bottom: 10px;
     text-align: center;
-  }
 
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+}
+  }
   
   .feature-box {
     // display: -webkit-box;
@@ -32,17 +40,19 @@
         background: rgb(245, 244, 250);
   }
 
-//   .icon-feature {
-//     text-align: center;
-// }
-
-@media screen and (min-width: 768px) {
   .feature-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-}
-}
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+     
+  }
+  }
 
   .feature-list li {
     // gap: 30px;
@@ -69,5 +79,4 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-   
   }
