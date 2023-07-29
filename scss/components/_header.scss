@@ -16,6 +16,12 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     // margin-top: 16px;
+
+    @media screen and (min-width: 768px) {
+     
+      font-size: 26px;
+      letter-spacing: 0.78px;
+    }
   }
   
   .header span {
@@ -63,6 +69,8 @@
 
   @media screen and (min-width: 1200px){
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -76,16 +84,18 @@
     fill: currentColor;
   }
   
+
   .header-item + .header-item {
     margin-left: 50px;
+    // margin-top: 10px;
+
     @media screen and (min-width: 768px) {
-      margin-left: auto;
-      margin-top: 10px;
+      // margin-left: auto;
+      // margin-top: 10px;
   }
 
-  @media screen and (min-width: 768px) {
-    margin-left: 50px;
-    margin-top: 0;
+  @media screen and (min-width: 1200px) {
+   
 }
   }
   
@@ -124,6 +134,15 @@
     border-radius: 2px;
     left: 0;
     bottom: -28px;
+
+    @media screen and (min-width: 768px) {
+      bottom: -25px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    bottom: -28px;
+   
+  }
   }
   
   .nav-current {

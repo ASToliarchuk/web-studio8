@@ -3,19 +3,45 @@
   background-color: var(--background-hero);
   padding-top: 60px;
   padding-bottom: 60px;
-}
 
   @media screen and (min-width: 768px) {
-    .footer-flex {
-      display: flex;
-      justify-content: center;
-      align-items: baseline;
+    display: flex;
+    align-items: flex-start;
   }
+}
+
+
+
+.footer-flex {
+  justify-content: center;
+  align-items: baseline;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
   }
+  
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 0;
+}
+}
+
 
   .footer-block {
     // align-items: baseline;
     text-align: center;
+    align-items: baseline;
+
+    @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+
+    }
 
     @media screen and (min-width: 1200px) {
      display: flex;
@@ -29,8 +55,9 @@
     // width: 231px;
     // height: 81px;
     // margin-right: 70px;
+
     @media screen and (min-width: 768px) {
-      margin-right: 165px;
+      margin-right: 177px;
     }
   }
 
@@ -60,7 +87,6 @@
     color: var(--white-color);
   }
   
- 
 
   .footer-right-block {
     display: flex;
@@ -70,7 +96,8 @@
     color: rgb(255, 255, 255);
 
     @media screen and (min-width: 768px) {
-      align-items: start;
+      align-items: center;
+      margin-left: 0;
     }
   }
 
@@ -104,6 +131,10 @@
 
   .footer-tel {
     margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0px;
+    }
   }
   
   .footer-mail,
@@ -119,7 +150,6 @@
   
 
   .title-icon {
-    font-family: "Roboto";
     text-align: center;
     font-family: Roboto;
     font-size: 14px;
@@ -130,16 +160,21 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     color: #FFFFFF;
+
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
   }
   
   .socials {
-    display: -webkit-box;
-    display: -ms-flexbox;
-   
     display: flex;
     justify-content: center;
     list-style: none;
     margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0px;
+    }
   }
   
 
@@ -176,6 +211,4 @@
     @media screen and (min-width: 1200px) {
      
     }
-
-    
   }
